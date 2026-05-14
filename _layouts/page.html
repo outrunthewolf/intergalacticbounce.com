@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<article>
+  {% if page.heading %}<h1 style="font-family:Arial,Helvetica,sans-serif;font-size:2rem;color:var(--purple-dark);margin-bottom:0.25rem;">{{ page.heading }}</h1>{% endif %}
+  {% if page.subheading %}<p style="color:var(--text-light);font-size:1.1rem;margin-bottom:2rem;">{{ page.subheading }}</p>{% endif %}
+  {{ content }}
+</article>
